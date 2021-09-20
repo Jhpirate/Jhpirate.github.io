@@ -5,7 +5,6 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Jared Heeringa | GitHub Profile</title>
-    <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect"/>
     <link as="style"
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"
           rel="preload"/>
@@ -59,7 +58,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-5">
                         <div class="avatar hover-effect bg-white shadow-sm p-1">
-                            <img height="200" src="images/ProfilePicture.jpg" width="200"/>
+                            <img src="images/ProfilePicture.jpg" style="width: 200px; height: 200px" alt="PROFILE_PICTURE"/>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-7 text-center text-md-start">
@@ -320,24 +319,28 @@
                 </div>
             </div>
             <hr class="d-print-none"/>
-            <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+            <div class="contact-section px-3 px-lg-4 pb-4" id="contact">
                 <h2 class="h3 text mb-3">Contact</h2>
                 <div class="row">
                     <div class="col-md-7 d-print-none">
                         <div class="my-2">
+                            <!-- Update formspree link to receive messages or custom action later -->
                             <form action="https://formspree.io/your@email.com"
                                   method="POST">
                                 <div class="row">
                                     <div class="col-6">
+                                        <label for="name">Name</label>
                                         <input class="form-control" id="name" name="name" placeholder="Your Name"
-                                               required type="text">
+                                                                         required type="text">
                                     </div>
                                     <div class="col-6">
+                                        <label for="email">E-mail Address</label>
                                         <input class="form-control" id="email" name="_replyto" placeholder="Your E-mail"
-                                               required type="email">
+                                                                          required type="email">
                                     </div>
                                 </div>
                                 <div class="form-group my-2">
+                                    <label for="message">Message</label>
                                     <textarea class="form-control" id="message" name="message"
                                               placeholder="Your Message"
                                               required rows="4" style="resize: none;"></textarea>
@@ -356,7 +359,7 @@
                             <div class="pb-2 text-secondary">JaredHeeringa at iCloud.com</div>
                         </div>
                     </div>
-                    <!-- Only shown if user goes to print the page (Who prints stuff nowadays) -->
+                    <!-- Only shown if a user goes to print the page (who prints stuff nowadays?) -->
                     <div class="col d-none d-print-block">
                         <div class="mt-2">
                             <div>
