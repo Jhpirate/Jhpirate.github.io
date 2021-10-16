@@ -15,12 +15,13 @@
     <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
     <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
     <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/dark-mode.css" rel="stylesheet">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/site.webmanifest">
+    <!--    <link rel="manifest" href="favicons/site.webmanifest">-->
 
 </head>
 <body id="top">
@@ -44,6 +45,16 @@
                                title="LinkedIn">
                                 <i class="fab fa-linkedin"></i>
                                 <span class="menu-title sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+
+                        <!-- Dark Mode Switch? -->
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <div class="">
+                                    <input type="checkbox" class="" id="darkSwitch">
+                                    <label class="form-check-label text-secondary" for="darkSwitch">Dark Mode</label>
+                                </div>
                             </a>
                         </li>
                     </ul>
@@ -415,7 +426,7 @@
         </div>
         <!-- Give credit to template designer (Thanks! Looks good and does what I need with some modifications) -->
         <div class="text-small">
-            <!--            <div class="mb-1">&copy Right Resume. All rights reserved.</div>-->
+            <div class="mb-1">&copy Right Resume. All rights reserved.</div>
             <div>Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
         </div>
     </div>
@@ -423,5 +434,6 @@
 <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
 <script src="scripts/aos.js?ver=1.2.0"></script>
 <script src="scripts/main.js?ver=1.2.0"></script>
+<script src="scripts/dark-mode-switch.min.js"></script>
 </body>
 </html>

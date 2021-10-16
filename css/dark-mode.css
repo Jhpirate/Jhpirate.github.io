@@ -1,0 +1,62 @@
+/*!
+ * Dark Mode Switch v1.0.1 (https://github.com/coliff/dark-mode-switch)
+ * Copyright 2021 C.Oliff
+ * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
+ */
+
+[data-theme="dark"] {
+  background-color: #141515 !important;
+  color: #fff;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #fff !important;
+}
+
+[data-theme="dark"] .bg-dark {
+  background-color: #fff !important;
+}
+
+[data-theme="dark"] .cover-bg {
+  background-color: #171818 !important;
+}
+
+[data-theme="dark"] .timeline {
+  border-left-color: #ffffff !important;
+}
+
+[data-theme="dark"] .timeline-card-primary:after {
+  border-left-color: yellow;
+}
+
+[data-theme="dark"] .card-body {
+  background-color: #232526 !important;
+}
+
+[data-theme="dark"] .text-secondary {
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .text-muted {
+  color: #cccccc !important;
+}
+
+[data-theme="dark"] .fab {
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] input {
+  background-color: #171818 !important;
+}
+
+[data-theme="dark"] textarea {
+  background-color: #171818 !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #171818 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #171818 !important;
+}
