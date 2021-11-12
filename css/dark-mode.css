@@ -33,6 +33,10 @@
   background-color: #232526 !important;
 }
 
+[data-theme="dark"] .card-footer {
+  background-color: #232526 !important;
+}
+
 [data-theme="dark"] .text-secondary {
   color: #ffffff !important;
 }

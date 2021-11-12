@@ -22,7 +22,7 @@
     --bs-gray-dark: #343a40;
     --bs-primary: #4A89DC;
     --bs-secondary: #656D78;
-    --bs-success: #37BC9B;
+    --bs-success: #37bc9b;
     --bs-info: #3BAFDA;
     --bs-warning: #F6BB42;
     --bs-danger: #E9573F;
@@ -3026,7 +3026,7 @@ textarea.form-control-lg {
     border: 1px solid transparent;
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
-    border-radius: 3rem;
+    border-radius: 0.75rem;
     transition: all 0.18s ease-in-out;
 }
 
@@ -4246,7 +4246,7 @@ fieldset:disabled .btn {
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
-    border-radius: 3rem;
+    border-radius: 0.75rem;
     transition: box-shadow 0.15s ease-in-out;
 }
 
@@ -7810,6 +7810,10 @@ fieldset:disabled .btn {
 
 .bg-success {
     background-color: #37BC9B !important;
+}
+
+.bg-custom {
+    background-color: #afda3b !important;
 }
 
 .bg-info {

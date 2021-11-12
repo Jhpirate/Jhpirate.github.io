@@ -55,6 +55,19 @@
     background-color: #4A89DC;
 }
 
+/* Timeline info color scheme */
+.timeline-card-info {
+    border-left-color: #3BAFDA;
+}
+
+.timeline-card-info:before {
+    border-color: #3BAFDA;
+}
+
+.timeline-card-info:after {
+    background-color: #3BAFDA;
+}
+
 .timeline-card-success {
     border-left-color: #37BC9B;
 }
@@ -66,6 +79,20 @@
 .timeline-card-success:after {
     background-color: #37BC9B;
 }
+
+/* Custom Color Timeline */
+.timeline-card-custom {
+    border-left-color: #afda3b;
+}
+
+.timeline-card-custom:before {
+    border-color: #afda3b;
+}
+
+.timeline-card-custom:after {
+    background-color: #afda3b;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -174,6 +201,7 @@ footer a:not(.nav-link) {
     .skills-section,
     .work-experience-section,
     .education-section,
+    .projects-section
     .contact-section {
         padding: 1.5rem 5rem 2rem !important;
     }
