@@ -5,7 +5,11 @@
  */
 
 [data-theme="dark"] {
-  background-color: #141515 !important;
+  /*background-color: #141515 !important;*/
+  background: hsla(0, 58%, 14%, 1);
+  background: linear-gradient(90deg, hsl(0, 0%, 16%) 0%, hsla(0, 0%, 0%, 1) 50%, hsl(0, 0%, 16%) 100%) !important;
+  /*background: linear-gradient(90deg, hsl(196, 68%, 54%) 0%, hsla(0, 0%, 0%, 1) 50%, hsl(76, 68%, 54%) 100%) !important;*/
+
   color: #fff;
 }
 
